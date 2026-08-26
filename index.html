@@ -3,60 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marichel Hellyer | Luxury Real Estate & Closing Advisory</title>
+    <title>Marichel Hellyer | Modern Chic Luxury Real Estate Advisory</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
-        .font-serif { font-family: 'Playfair Display', serif; }
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+        .font-cinzel { font-family: 'Cinzel', serif; }
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber-600 selection:text-white">
+<body class="bg-white text-stone-800 antialiased selection:bg-stone-900 selection:text-white">
 
-    <!-- HEADER / NAVIGATION -->
-    <header class="absolute top-0 left-0 right-0 z-50 bg-white/50 backdrop-blur-md border-b border-white/20">
+    <!-- CHIC MINIMALIST HEADER -->
+    <header class="absolute top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-stone-200">
         <div class="max-w-7xl mx-auto px-8 py-6 flex justify-between items-center">
-            <h1 class="text-xl font-serif tracking-widest text-slate-900 uppercase">Marichel <span class="text-amber-700 font-light italic">Hellyer</span></h1>
-            <nav class="hidden md:flex space-x-10 text-sm font-medium tracking-wide text-slate-700">
-                <a href="#about" class="hover:text-amber-700 transition">About</a>
-                <a href="#portfolio" class="hover:text-amber-700 transition">Featured Estates</a>
-                <a href="#services" class="hover:text-amber-700 transition">Services</a>
-                <a href="#contact" class="hover:text-amber-700 transition">Contact</a>
+            <h1 class="text-sm font-cinzel tracking-[0.25em] uppercase text-stone-900 font-semibold">Marichel Hellyer</h1>
+            <nav class="hidden md:flex space-x-12 text-xs font-medium tracking-[0.2em] uppercase text-stone-600">
+                <a href="#about" class="hover:text-stone-900 transition">Studio</a>
+                <a href="#portfolio" class="hover:text-stone-900 transition">Collection</a>
+                <a href="#services" class="hover:text-stone-900 transition">Advisory</a>
+                <a href="#contact" class="hover:text-stone-900 transition">Inquire</a>
             </nav>
-            <a href="#contact" class="bg-slate-900 hover:bg-amber-700 text-white text-xs font-semibold tracking-wider uppercase px-6 py-3 rounded-full shadow-md transition">
-                Inquire
+            <a href="#contact" class="bg-stone-900 hover:bg-stone-800 text-white text-[11px] font-medium tracking-[0.2em] uppercase px-7 py-3 transition">
+                Consult
             </a>
         </div>
     </header>
 
-    <!-- HERO SECTION WITH SEARCH FILTER BAR -->
-    <section class="relative min-h-[95vh] flex flex-col items-center justify-center text-center pt-32 pb-24 px-6 overflow-hidden bg-slate-900">
+    <!-- HERO SECTION: Modern Chic Editorial Look -->
+    <section class="relative min-h-[95vh] flex flex-col justify-center pt-32 pb-24 px-6 lg:px-12 bg-stone-900 text-white">
         <div class="absolute inset-0 z-0">
             <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=80" 
                  alt="Luxury Estate Background" 
-                 class="w-full h-full object-cover object-center transform opacity-40">
-            <div class="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-950/40 to-slate-950/80"></div>
+                 class="w-full h-full object-cover object-center transform opacity-30">
+            <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/60 to-transparent"></div>
         </div>
 
-        <div class="max-w-4xl mx-auto relative z-10 space-y-8 my-auto">
-            <span class="inline-block text-amber-300 text-xs font-semibold uppercase tracking-[0.3em] bg-white/10 border border-amber-400/30 px-5 py-2 rounded-full backdrop-blur-md">
-                Exclusive Luxury Real Estate & Closing Advisory
+        <div class="max-w-5xl mx-auto w-full relative z-10 text-center space-y-8 my-auto">
+            <span class="inline-block text-[10px] font-cinzel font-medium uppercase tracking-[0.4em] text-stone-300 border-b border-stone-600 pb-1">
+                High-End Acquisitions & Closing Advisory
             </span>
-            <h2 class="text-5xl sm:text-6xl lg:text-7xl font-serif text-white tracking-tight leading-[1.1]">
-                Welcome to Your <br/><span class="italic font-normal text-amber-300">Next Estate</span>
+            <h2 class="text-5xl sm:text-6xl lg:text-7xl font-cinzel font-light text-white tracking-tight leading-[1.1]">
+                Modern Chic Living. <br/><span class="italic font-normal text-stone-300">Absolute Precision.</span>
             </h2>
-            <p class="text-lg sm:text-xl text-slate-200 font-light leading-relaxed max-w-2xl mx-auto">
-                Navigating high-end acquisitions demands white-glove precision. Search Marichel's prioritized listings below or schedule an exclusive consultation.
+            <p class="text-sm sm:text-base text-stone-300 font-light leading-relaxed max-w-2xl mx-auto">
+                Curating premier architectural residences and providing white-glove closing strategy for elite buyers and sellers.
             </p>
         </div>
 
-        <!-- Interactive Search Bar Widget -->
-        <div class="relative z-10 w-full max-w-3xl mt-8 bg-slate-900/90 backdrop-blur-xl p-6 rounded-2xl shadow-2xl border border-white/20 text-left">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4 text-xs text-white">
+        <!-- Chic Search Filter Widget -->
+        <div class="relative z-10 w-full max-w-4xl mx-auto mt-8 bg-white/10 backdrop-blur-xl p-6 rounded-2xl border border-white/20 text-left">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4 text-xs text-stone-200">
                 <div>
-                    <label class="block uppercase tracking-wider text-slate-400 mb-1">Property Type</label>
-                    <select id="filterType" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:border-amber-500">
+                    <label class="block uppercase tracking-wider text-stone-400 mb-1 font-cinzel">Property Type</label>
+                    <select id="filterType" class="w-full bg-stone-900/90 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-stone-400">
                         <option value="all">Any Type</option>
                         <option value="Villa">Modernist Villa</option>
                         <option value="Sanctuary">Oceanfront Sanctuary</option>
@@ -64,8 +64,8 @@
                     </select>
                 </div>
                 <div>
-                    <label class="block uppercase tracking-wider text-slate-400 mb-1">Location</label>
-                    <select id="filterLocation" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:border-amber-500">
+                    <label class="block uppercase tracking-wider text-stone-400 mb-1 font-cinzel">Location</label>
+                    <select id="filterLocation" class="w-full bg-stone-900/90 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-stone-400">
                         <option value="all">Any Location</option>
                         <option value="Beverly Hills">Beverly Hills, CA</option>
                         <option value="Newport Beach">Newport Beach, CA</option>
@@ -73,145 +73,158 @@
                     </select>
                 </div>
                 <div>
-                    <label class="block uppercase tracking-wider text-slate-400 mb-1">Price Range</label>
-                    <select id="filterPrice" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:outline-none focus:border-amber-500">
+                    <label class="block uppercase tracking-wider text-stone-400 mb-1 font-cinzel">Price Range</label>
+                    <select id="filterPrice" class="w-full bg-stone-900/90 border border-stone-700 rounded-lg p-3 text-white focus:outline-none focus:border-stone-400">
                         <option value="all">Any Price</option>
                         <option value="high">$5M - $10M+</option>
                         <option value="ultra">$10M+</option>
                     </select>
                 </div>
             </div>
-            <button onclick="filterProperties()" class="w-full bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold py-3.5 rounded-xl uppercase tracking-wider text-xs transition shadow-md">
+            <button onclick="filterProperties()" class="w-full bg-white hover:bg-stone-200 text-stone-950 font-medium py-3 rounded-xl uppercase tracking-[0.2em] text-xs transition shadow-md font-cinzel">
                 Search Properties
             </button>
         </div>
     </section>
 
-    <!-- FEATURED LUXURY ESTATES PORTFOLIO -->
-    <section id="portfolio" class="py-28 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center max-w-2xl mx-auto mb-20 space-y-4">
-                <span class="text-amber-700 text-xs font-semibold uppercase tracking-[0.2em] block">Curated Inventory</span>
-                <h3 class="text-4xl font-serif text-slate-900 tracking-tight">Featured Luxury Estates</h3>
-                <p class="text-slate-600 font-light">Explore premier residential properties prioritized for acquisition. Click through to view direct listings on Zillow.</p>
+    <!-- CHIC RESIDENCES COLLECTION -->
+    <section id="portfolio" class="py-32 px-6 lg:px-12 bg-stone-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-20">
+                <div class="space-y-3">
+                    <span class="text-[10px] font-cinzel font-semibold uppercase tracking-[0.3em] text-stone-400">Curated Portfolio</span>
+                    <h3 class="text-3xl sm:text-4xl font-cinzel font-light tracking-tight text-stone-900">Featured Residences</h3>
+                </div>
+                <p class="text-xs text-stone-500 max-w-xs mt-4 md:mt-0 font-light">
+                    Explore priority estates handled with absolute discretion and linked directly to verified MLS records.
+                </p>
             </div>
 
             <div id="propertyGrid" class="grid md:grid-cols-3 gap-8 mb-16">
-                <!-- Estate 1 -->
-                <div class="property-card group relative overflow-hidden rounded-3xl shadow-xl bg-slate-100" data-type="Villa" data-location="Beverly Hills" data-price="ultra">
-                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" alt="Villa" class="w-full h-[420px] object-cover group-hover:scale-105 transition duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent flex flex-col justify-end p-8 text-white">
-                        <span class="text-xs text-amber-400 font-semibold uppercase tracking-widest mb-1">Beverly Hills, CA</span>
-                        <h4 class="font-serif text-2xl mb-1">The Modernist Villa</h4>
-                        <p class="text-xs text-slate-300 font-light mb-4">Seamless indoor-outdoor living with panoramic sunset views.</p>
-                        <a href="https://www.zillow.com" target="_blank" class="inline-block text-center bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold py-2.5 px-4 rounded-xl text-xs uppercase tracking-wider transition">
-                            View Listing on Zillow &rarr;
-                        </a>
+                <!-- Residence 1 -->
+                <div class="property-card group bg-white border border-stone-200 overflow-hidden shadow-sm hover:shadow-md transition duration-500" data-type="Villa" data-location="Beverly Hills" data-price="ultra">
+                    <div class="aspect-[4/3] overflow-hidden bg-stone-100">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" alt="Villa" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <span class="text-[10px] font-cinzel font-semibold uppercase tracking-widest text-stone-400">Beverly Hills, CA</span>
+                        <h4 class="font-cinzel text-xl text-stone-900">The Modernist Villa</h4>
+                        <p class="text-xs text-stone-600 font-light">Seamless indoor-outdoor living with panoramic sunset views.</p>
+                        <div class="pt-2">
+                            <a href="https://www.zillow.com" target="_blank" class="inline-block text-[11px] font-cinzel font-semibold uppercase tracking-widest text-stone-900 hover:text-stone-500 transition">
+                                View Listing on Zillow &rarr;
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <!-- Estate 2 -->
-                <div class="property-card group relative overflow-hidden rounded-3xl shadow-xl bg-slate-100" data-type="Sanctuary" data-location="Newport Beach" data-price="ultra">
-                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Sanctuary" class="w-full h-[420px] object-cover group-hover:scale-105 transition duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent flex flex-col justify-end p-8 text-white">
-                        <span class="text-xs text-amber-400 font-semibold uppercase tracking-widest mb-1">Newport Beach, CA</span>
-                        <h4 class="font-serif text-2xl mb-1">Oceanfront Sanctuary</h4>
-                        <p class="text-xs text-slate-300 font-light mb-4">Private coastal estate featuring direct beach access and infinity pool.</p>
-                        <a href="https://www.zillow.com" target="_blank" class="inline-block text-center bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold py-2.5 px-4 rounded-xl text-xs uppercase tracking-wider transition">
-                            View Listing on Zillow &rarr;
-                        </a>
+                <!-- Residence 2 -->
+                <div class="property-card group bg-white border border-stone-200 overflow-hidden shadow-sm hover:shadow-md transition duration-500" data-type="Sanctuary" data-location="Newport Beach" data-price="ultra">
+                    <div class="aspect-[4/3] overflow-hidden bg-stone-100">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Sanctuary" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <span class="text-[10px] font-cinzel font-semibold uppercase tracking-widest text-stone-400">Newport Beach, CA</span>
+                        <h4 class="font-cinzel text-xl text-stone-900">Oceanfront Sanctuary</h4>
+                        <p class="text-xs text-stone-600 font-light">Private coastal estate featuring direct beach access and infinity pool.</p>
+                        <div class="pt-2">
+                            <a href="https://www.zillow.com" target="_blank" class="inline-block text-[11px] font-cinzel font-semibold uppercase tracking-widest text-stone-900 hover:text-stone-500 transition">
+                                View Listing on Zillow &rarr;
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <!-- Estate 3 -->
-                <div class="property-card group relative overflow-hidden rounded-3xl shadow-xl bg-slate-100" data-type="Alpine" data-location="Aspen" data-price="high">
-                    <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80" alt="Alpine" class="w-full h-[420px] object-cover group-hover:scale-105 transition duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent flex flex-col justify-end p-8 text-white">
-                        <span class="text-xs text-amber-400 font-semibold uppercase tracking-widest mb-1">Aspen, CO</span>
-                        <h4 class="font-serif text-2xl mb-1">Alpine Masterpiece</h4>
-                        <p class="text-xs text-slate-300 font-light mb-4">Luxurious mountain retreat with high-tech smart home amenities.</p>
-                        <a href="https://www.zillow.com" target="_blank" class="inline-block text-center bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold py-2.5 px-4 rounded-xl text-xs uppercase tracking-wider transition">
-                            View Listing on Zillow &rarr;
-                        </a>
+                <!-- Residence 3 -->
+                <div class="property-card group bg-white border border-stone-200 overflow-hidden shadow-sm hover:shadow-md transition duration-500" data-type="Alpine" data-location="Aspen" data-price="high">
+                    <div class="aspect-[4/3] overflow-hidden bg-stone-100">
+                        <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80" alt="Alpine" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <span class="text-[10px] font-cinzel font-semibold uppercase tracking-widest text-stone-400">Aspen, CO</span>
+                        <h4 class="font-cinzel text-xl text-stone-900">Alpine Masterpiece</h4>
+                        <p class="text-xs text-stone-600 font-light">Luxurious mountain retreat with high-tech smart home amenities.</p>
+                        <div class="pt-2">
+                            <a href="https://www.zillow.com" target="_blank" class="inline-block text-[11px] font-cinzel font-semibold uppercase tracking-widest text-stone-900 hover:text-stone-500 transition">
+                                View Listing on Zillow &rarr;
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="text-center">
-                <a href="https://www.zillow.com" target="_blank" class="inline-flex items-center gap-3 bg-slate-900 hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-full shadow-lg transition tracking-wide text-xs uppercase">
-                    <span>Browse Full Zillow Database</span>
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            <!-- MLS Database Button -->
+            <div class="text-center pt-8 border-t border-stone-200">
+                <a href="https://www.zillow.com" target="_blank" class="inline-flex items-center gap-3 text-xs font-cinzel font-semibold uppercase tracking-[0.2em] text-stone-900 hover:text-stone-500 transition">
+                    <span>Explore Full MLS Database on Zillow</span>
+                    <span>&rarr;</span>
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- ABOUT MARICHEL & CONTACT SECTION WITH BUYER/SELLER TAGGING -->
-    <section id="about" class="py-28 bg-slate-100 border-t border-slate-200">
-        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-12 items-start">
+    <!-- STUDIO / ABOUT & CONTACT WITH BUYER/SELLER TAGGING -->
+    <section id="about" class="py-32 px-6 lg:px-12 bg-white border-t border-stone-200">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-16 items-start">
             
-            <div class="lg:col-span-6 space-y-6">
-                <div class="rounded-3xl shadow-xl border-4 border-white bg-slate-900 mb-6 flex justify-center items-center overflow-hidden">
+            <!-- Bio Column -->
+            <div class="lg:col-span-6 space-y-8">
+                <!-- Uncropped Portrait -->
+                <div class="bg-stone-900 p-2 border border-stone-200 shadow-sm max-w-md flex justify-center items-center overflow-hidden">
                     <img src="https://raw.githubusercontent.com/anncescoderx/Mhellyerweb/main/Marichel%20(1).jfif" 
                          alt="Marichel Hellyer" 
                          class="w-full h-auto max-h-[500px] object-contain">
                 </div>
-
-                <span class="text-amber-700 text-xs font-semibold uppercase tracking-[0.2em] block">Dedicated Leadership</span>
-                <h3 class="text-4xl font-serif text-slate-900 tracking-tight">Meet Marichel Hellyer</h3>
-                <p class="text-slate-600 font-light leading-relaxed">
-                    With years of dedicated service in the real estate and financial advisory sectors, Marichel Hellyer has built her career on transforming complex property acquisitions into seamless journeys.
-                </p>
-                <p class="text-slate-600 font-light leading-relaxed">
-                    Specializing strictly in high-end luxury home purchases with no rental listings handled, Marichel ensures absolute security from contract negotiation to the closing table.
-                </p>
+                <div class="space-y-4 max-w-lg">
+                    <span class="text-[10px] font-cinzel font-semibold uppercase tracking-[0.3em] text-stone-400">Principal Advisor</span>
+                    <h3 class="text-3xl font-cinzel font-light text-stone-900">Marichel Hellyer</h3>
+                    <p class="text-sm text-stone-600 font-light leading-relaxed">
+                        With years of dedication to high-end real estate and financial advisory, Marichel provides elite contract strategy and meticulous closing coordination. Operating strictly on purchase acquisitions (no rentals handled) with a commitment to absolute transparency and client security.
+                    </p>
+                </div>
             </div>
 
-            <!-- Contact Form with Buyer/Seller Tagging and US Compliance -->
-            <div class="lg:col-span-6 bg-white p-8 lg:p-12 rounded-3xl shadow-2xl border border-slate-200 sticky top-28" id="contact">
-                <h3 class="text-2xl font-serif text-slate-900 mb-2">Consult with Marichel</h3>
-                <p class="text-xs text-slate-500 mb-6">Send an inquiry to discuss your next acquisition or advisory needs.</p>
+            <!-- Chic Contact Form with Buyer/Seller Tagging -->
+            <div class="lg:col-span-6 bg-stone-50 p-10 lg:p-14 border border-stone-200" id="contact">
+                <span class="text-[10px] font-cinzel font-semibold uppercase tracking-[0.3em] text-stone-400 block mb-2">Direct Channel</span>
+                <h3 class="text-2xl font-cinzel font-light text-stone-900 mb-8">Initiate Consultation</h3>
                 
-                <form action="https://formspree.io/f/maewkjjd" method="POST" class="space-y-4">
+                <form action="https://formspree.io/f/maewkjjd" method="POST" class="space-y-6">
                     <div>
-                        <label class="block text-[10px] font-semibold uppercase tracking-widest text-slate-600 mb-1">Your Name</label>
-                        <input type="text" name="name" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 text-sm focus:ring-2 focus:ring-amber-600 outline-none">
+                        <label class="block text-[10px] font-cinzel font-semibold uppercase tracking-widest text-stone-500 mb-2">Name</label>
+                        <input type="text" name="name" required class="w-full px-0 py-3 bg-transparent border-b border-stone-300 text-stone-900 text-sm focus:border-stone-900 outline-none transition">
                     </div>
                     <div>
-                        <label class="block text-[10px] font-semibold uppercase tracking-widest text-slate-600 mb-1">Your Email</label>
-                        <input type="email" name="email" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 text-sm focus:ring-2 focus:ring-amber-600 outline-none">
+                        <label class="block text-[10px] font-cinzel font-semibold uppercase tracking-widest text-stone-500 mb-2">Email</label>
+                        <input type="email" name="email" required class="w-full px-0 py-3 bg-transparent border-b border-stone-300 text-stone-900 text-sm focus:border-stone-900 outline-none transition">
                     </div>
                     <div>
-                        <label class="block text-[10px] font-semibold uppercase tracking-widest text-slate-600 mb-1">Phone Number</label>
-                        <input type="tel" name="phone" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 text-sm focus:ring-2 focus:ring-amber-600 outline-none" placeholder="(555) 000-0000">
+                        <label class="block text-[10px] font-cinzel font-semibold uppercase tracking-widest text-stone-500 mb-2">Phone</label>
+                        <input type="tel" name="phone" required class="w-full px-0 py-3 bg-transparent border-b border-stone-300 text-stone-900 text-sm focus:border-stone-900 outline-none transition" placeholder="(555) 000-0000">
                     </div>
-                    
-                    <!-- Buyer or Seller Tagging Selection -->
                     <div>
-                        <label class="block text-[10px] font-semibold uppercase tracking-widest text-slate-600 mb-1">I am primarily a:</label>
-                        <select name="lead_type" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 text-sm focus:ring-2 focus:ring-amber-600 outline-none">
+                        <label class="block text-[10px] font-cinzel font-semibold uppercase tracking-widest text-stone-500 mb-2">I am primarily a:</label>
+                        <select name="lead_type" required class="w-full px-0 py-3 bg-transparent border-b border-stone-300 text-stone-900 text-sm focus:border-stone-900 outline-none transition font-sans">
                             <option value="Buyer">Property Buyer / Investor</option>
                             <option value="Seller">Property Seller / Vendor</option>
                         </select>
                     </div>
-
                     <div>
-                        <label class="block text-[10px] font-semibold uppercase tracking-widest text-slate-600 mb-1">Message / Inquiry</label>
-                        <textarea name="message" rows="3" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 text-sm focus:ring-2 focus:ring-amber-600 outline-none"></textarea>
+                        <label class="block text-[10px] font-cinzel font-semibold uppercase tracking-widest text-stone-500 mb-2">Inquiry Details</label>
+                        <textarea name="message" rows="3" required class="w-full px-0 py-3 bg-transparent border-b border-stone-300 text-stone-900 text-sm focus:border-stone-900 outline-none transition"></textarea>
                     </div>
 
-                    <!-- US COMPLIANT LEGAL CHECKBOXES -->
-                    <div class="space-y-3 pt-2 text-[11px] text-slate-500">
+                    <div class="space-y-3 pt-2 text-[11px] text-stone-500 font-light">
                         <label class="flex items-start gap-2.5 cursor-pointer">
-                            <input type="checkbox" name="sms_consent" value="yes" class="mt-0.5">
-                            <span>I agree to receive automated marketing calls or text messages at the phone number provided. Consent is not a condition of purchase. Msg & data rates may apply.</span>
+                            <input type="checkbox" name="sms_consent" value="yes" class="mt-0.5 accent-stone-900">
+                            <span>I agree to receive automated marketing calls or text messages at the phone number provided.</span>
                         </label>
                         <label class="flex items-start gap-2.5 cursor-pointer">
-                            <input type="checkbox" name="privacy_consent" required class="mt-0.5">
-                            <span class="text-slate-700 font-medium">I agree to the Privacy Policy and Terms of Service. (Required)</span>
+                            <input type="checkbox" name="privacy_consent" required class="mt-0.5 accent-stone-900">
+                            <span class="text-stone-800 font-medium">I agree to the Privacy Policy and Terms of Service. (Required)</span>
                         </label>
                     </div>
 
-                    <button type="submit" class="w-full bg-slate-900 hover:bg-amber-600 text-white font-semibold py-3.5 rounded-xl transition text-sm mt-3 uppercase tracking-wide shadow-lg">
-                        Send Inquiry
+                    <button type="submit" class="w-full bg-stone-900 hover:bg-stone-800 text-white text-xs font-cinzel font-medium tracking-[0.2em] uppercase py-4 transition mt-4 shadow-md">
+                        Submit Inquiry
                     </button>
                 </form>
             </div>
@@ -220,16 +233,16 @@
     </section>
 
     <!-- FOOTER -->
-    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
-        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-            <p class="text-sm font-light text-slate-300">© 2026 Marichel Hellyer. All rights reserved.</p>
-            <div class="text-xs text-slate-400 max-w-md text-center md:text-right leading-relaxed font-light">
+    <footer class="bg-white text-stone-500 py-12 px-6 lg:px-12 border-t border-stone-200">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <p class="text-xs font-cinzel tracking-widest uppercase">© 2026 Marichel Hellyer.</p>
+            <div class="text-[11px] max-w-md text-center md:text-right font-light leading-relaxed">
                 Consumer Notice: Right to choose your own title/escrow provider. Equal Housing Opportunity.
             </div>
         </div>
     </footer>
 
-    <!-- JAVASCRIPT FOR PROPERTY FILTERING -->
+    <!-- PROPERTY FILTER SCRIPT -->
     <script>
         function filterProperties() {
             const type = document.getElementById('filterType').value;
