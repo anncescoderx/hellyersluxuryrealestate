@@ -30,7 +30,7 @@
         </div>
     </header>
 
-    <!-- HERO SECTION WITH INTERACTIVE SEARCH FILTER BAR -->
+    <!-- HERO SECTION WITH SEARCH FILTER BAR -->
     <section class="relative min-h-[95vh] flex flex-col items-center justify-center text-center pt-32 pb-24 px-6 overflow-hidden bg-slate-900">
         <div class="absolute inset-0 z-0">
             <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=80" 
@@ -87,7 +87,7 @@
         </div>
     </section>
 
-    <!-- FEATURED LUXURY ESTATES PORTFOLIO WITH DIRECT ZILLOW LINKS -->
+    <!-- FEATURED LUXURY ESTATES PORTFOLIO -->
     <section id="portfolio" class="py-28 bg-white">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center max-w-2xl mx-auto mb-20 space-y-4">
@@ -96,7 +96,6 @@
                 <p class="text-slate-600 font-light">Explore premier residential properties prioritized for acquisition. Click through to view direct listings on Zillow.</p>
             </div>
 
-            <!-- Property Cards Grid (with data tags for filtering) -->
             <div id="propertyGrid" class="grid md:grid-cols-3 gap-8 mb-16">
                 <!-- Estate 1 -->
                 <div class="property-card group relative overflow-hidden rounded-3xl shadow-xl bg-slate-100" data-type="Villa" data-location="Beverly Hills" data-price="ultra">
@@ -136,7 +135,6 @@
                 </div>
             </div>
 
-            <!-- Direct Zillow Database Button -->
             <div class="text-center">
                 <a href="https://www.zillow.com" target="_blank" class="inline-flex items-center gap-3 bg-slate-900 hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-full shadow-lg transition tracking-wide text-xs uppercase">
                     <span>Browse Full Zillow Database</span>
@@ -146,12 +144,11 @@
         </div>
     </section>
 
-    <!-- ABOUT MARICHEL & CONTACT SECTION -->
+    <!-- ABOUT MARICHEL & CONTACT SECTION WITH BUYER/SELLER TAGGING -->
     <section id="about" class="py-28 bg-slate-100 border-t border-slate-200">
         <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-12 items-start">
             
             <div class="lg:col-span-6 space-y-6">
-                <!-- Uncropped Portrait -->
                 <div class="rounded-3xl shadow-xl border-4 border-white bg-slate-900 mb-6 flex justify-center items-center overflow-hidden">
                     <img src="https://raw.githubusercontent.com/anncescoderx/Mhellyerweb/main/Marichel%20(1).jfif" 
                          alt="Marichel Hellyer" 
@@ -168,7 +165,7 @@
                 </p>
             </div>
 
-            <!-- Contact Form -->
+            <!-- Contact Form with Buyer/Seller Tagging and US Compliance -->
             <div class="lg:col-span-6 bg-white p-8 lg:p-12 rounded-3xl shadow-2xl border border-slate-200 sticky top-28" id="contact">
                 <h3 class="text-2xl font-serif text-slate-900 mb-2">Consult with Marichel</h3>
                 <p class="text-xs text-slate-500 mb-6">Send an inquiry to discuss your next acquisition or advisory needs.</p>
@@ -186,15 +183,26 @@
                         <label class="block text-[10px] font-semibold uppercase tracking-widest text-slate-600 mb-1">Phone Number</label>
                         <input type="tel" name="phone" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 text-sm focus:ring-2 focus:ring-amber-600 outline-none" placeholder="(555) 000-0000">
                     </div>
+                    
+                    <!-- Buyer or Seller Tagging Selection -->
+                    <div>
+                        <label class="block text-[10px] font-semibold uppercase tracking-widest text-slate-600 mb-1">I am primarily a:</label>
+                        <select name="lead_type" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 text-sm focus:ring-2 focus:ring-amber-600 outline-none">
+                            <option value="Buyer">Property Buyer / Investor</option>
+                            <option value="Seller">Property Seller / Vendor</option>
+                        </select>
+                    </div>
+
                     <div>
                         <label class="block text-[10px] font-semibold uppercase tracking-widest text-slate-600 mb-1">Message / Inquiry</label>
                         <textarea name="message" rows="3" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 text-sm focus:ring-2 focus:ring-amber-600 outline-none"></textarea>
                     </div>
 
+                    <!-- US COMPLIANT LEGAL CHECKBOXES -->
                     <div class="space-y-3 pt-2 text-[11px] text-slate-500">
                         <label class="flex items-start gap-2.5 cursor-pointer">
                             <input type="checkbox" name="sms_consent" value="yes" class="mt-0.5">
-                            <span>I agree to receive automated marketing calls or text messages at the phone number provided.</span>
+                            <span>I agree to receive automated marketing calls or text messages at the phone number provided. Consent is not a condition of purchase. Msg & data rates may apply.</span>
                         </label>
                         <label class="flex items-start gap-2.5 cursor-pointer">
                             <input type="checkbox" name="privacy_consent" required class="mt-0.5">
@@ -221,7 +229,7 @@
         </div>
     </footer>
 
-    <!-- JAVASCRIPT FOR PROPERTY FILTERING & SMOOTH SCROLL TO RESULTS -->
+    <!-- JAVASCRIPT FOR PROPERTY FILTERING -->
     <script>
         function filterProperties() {
             const type = document.getElementById('filterType').value;
@@ -247,7 +255,6 @@
                 }
             });
 
-            // Smoothly scroll down to the portfolio section to show results
             document.getElementById('portfolio').scrollIntoView({ behavior: 'smooth' });
         }
     </script>
