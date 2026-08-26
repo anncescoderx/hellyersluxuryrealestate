@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marichel Hellyer | Luxury Real Estate & Closing Advisory</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+        .font-serif { font-family: 'Playfair Display', serif; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber-600 selection:text-white">
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="absolute top-0 left-0 right-0 z-50 bg-white/50 backdrop-blur-md border-b border-white/20">
+        <div class="max-w-7xl mx-auto px-8 py-6 flex justify-between items-center">
+            <h1 class="text-xl font-serif tracking-widest text-slate-900 uppercase">Marichel <span class="text-amber-700 font-light italic">Hellyer</span></h1>
+            <nav class="hidden md:flex space-x-10 text-sm font-medium tracking-wide text-slate-700">
+                <a href="#about" class="hover:text-amber-700 transition">About</a>
+                <a href="#portfolio" class="hover:text-amber-700 transition">Featured Estates</a>
+                <a href="#services" class="hover:text-amber-700 transition">Services</a>
+                <a href="#contact" class="hover:text-amber-700 transition">Contact</a>
+            </nav>
+            <a href="#contact" class="bg-slate-900 hover:bg-amber-700 text-white text-xs font-semibold tracking-wider uppercase px-6 py-3 rounded-full shadow-md transition">
+                Inquire
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION: Full-width spacious welcome message -->
+    <section class="relative min-h-[90vh] flex items-center justify-center text-center pt-32 pb-24 overflow-hidden bg-slate-900">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=80" 
+                 alt="Luxury Estate Background" 
+                 class="w-full h-full object-cover object-center transform opacity-40">
+            <div class="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-950/40 to-slate-950/80"></div>
+        </div>
+
+        <div class="max-w-4xl mx-auto px-6 relative z-10 space-y-8">
+            <span class="inline-block text-amber-300 text-xs font-semibold uppercase tracking-[0.3em] bg-white/10 border border-amber-400/30 px-5 py-2 rounded-full backdrop-blur-md">
+                Exclusive Luxury Real Estate & Closing Advisory
+            </span>
+            <h2 class="text-5xl sm:text-6xl lg:text-7xl font-serif text-white tracking-tight leading-[1.1]">
+                Welcome to Your <br/><span class="italic font-normal text-amber-300">Next Estate</span>
+            </h2>
+            <p class="text-lg sm:text-xl text-slate-200 font-light leading-relaxed max-w-2xl mx-auto">
+                Navigating high-end acquisitions demands white-glove precision. Marichel Hellyer provides elite financial strategy, closing coordination, and advisory protection for premier properties (For Sale Only).
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 pt-4">
+                <a href="#portfolio" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold px-8 py-4 rounded-full shadow-xl transition tracking-wide text-xs uppercase">
+                    View Featured Estates
+                </a>
+                <a href="#contact" class="border border-white/40 hover:bg-white/10 font-semibold px-8 py-4 rounded-full text-white transition tracking-wide text-xs uppercase">
+                    Schedule Consultation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED LUXURY ESTATES PORTFOLIO -->
+    <section id="portfolio" class="py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-20 space-y-4">
+                <span class="text-amber-700 text-xs font-semibold uppercase tracking-[0.2em] block">Curated Inventory</span>
+                <h3 class="text-4xl font-serif text-slate-900 tracking-tight">Featured Luxury Estates</h3>
+                <p class="text-slate-600 font-light">Explore a selection of premier residential properties prioritized for acquisition. (No rentals handled).</p>
+            </div>
+
+            <!-- Magazine Grid Layout -->
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <!-- Estate 1 -->
+                <div class="group relative overflow-hidden rounded-3xl shadow-xl bg-slate-100">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" alt="Estate 1" class="w-full h-[420px] object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex flex-col justify-end p-8 text-white">
+                        <span class="text-xs text-amber-400 font-semibold uppercase tracking-widest mb-1">Exclusive Listing</span>
+                        <h4 class="font-serif text-2xl mb-2">The Modernist Villa</h4>
+                        <p class="text-xs text-slate-300 font-light">Seamless indoor-outdoor living with panoramic sunset views and custom designer finishes.</p>
+                    </div>
+                </div>
+                <!-- Estate 2 -->
+                <div class="group relative overflow-hidden rounded-3xl shadow-xl bg-slate-100">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Estate 2" class="w-full h-[420px] object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex flex-col justify-end p-8 text-white">
+                        <span class="text-xs text-amber-400 font-semibold uppercase tracking-widest mb-1">Exclusive Listing</span>
+                        <h4 class="font-serif text-2xl mb-2">Oceanfront Sanctuary</h4>
+                        <p class="text-xs text-slate-300 font-light">Private coastal estate featuring direct beach access, infinity pool, and bespoke wine cellar.</p>
+                    </div>
+                </div>
+                <!-- Estate 3 -->
+                <div class="group relative overflow-hidden rounded-3xl shadow-xl bg-slate-100">
+                    <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80" alt="Estate 3" class="w-full h-[420px] object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex flex-col justify-end p-8 text-white">
+                        <span class="text-xs text-amber-400 font-semibold uppercase tracking-widest mb-1">Exclusive Listing</span>
+                        <h4 class="font-serif text-2xl mb-2">Alpine Masterpiece</h4>
+                        <p class="text-xs text-slate-300 font-light">Luxurious mountain retreat combining rustic timber architecture with high-tech smart home amenities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Direct Zillow / MLS Link Button -->
+            <div class="text-center">
+                <a href="https://www.zillow.com" target="_blank" class="inline-flex items-center gap-3 bg-slate-900 hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-full shadow-lg transition tracking-wide text-xs uppercase">
+                    <span>Browse More Properties on Zillow Database</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT MARICHEL & CONTACT SECTION -->
+    <section id="about" class="py-28 bg-slate-100 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-12 items-start">
+            
+            <!-- Left: About Marichel with Uncropped Photo -->
+            <div class="lg:col-span-6 space-y-6">
+                <!-- Portrait with object-contain to prevent awkward cropping -->
+                <div class="rounded-3xl shadow-xl border-4 border-white bg-slate-900 mb-6 flex justify-center items-center overflow-hidden">
+                    <img src="https://raw.githubusercontent.com/anncescoderx/Mhellyerweb/main/Marichel%20(1).jfif" 
+                         alt="Marichel Hellyer" 
+                         class="w-full h-auto max-h-[500px] object-contain">
+                </div>
+
+                <span class="text-amber-700 text-xs font-semibold uppercase tracking-[0.2em] block">Dedicated Leadership</span>
+                <h3 class="text-4xl font-serif text-slate-900 tracking-tight">Meet Marichel Hellyer</h3>
+                <p class="text-slate-600 font-light leading-relaxed">
+                    With years of dedicated service in the real estate and financial advisory sectors, Marichel Hellyer has built her career on a singular core mission: transforming complex property transactions into seamless, stress-free journeys that genuinely change lives and protect family wealth.
+                </p>
+                <p class="text-slate-600 font-light leading-relaxed">
+                    Specializing exclusively in high-end luxury acquisitions and home purchases (with no rental listings handled), Marichel provides meticulous closing coordination from initial contract negotiation all the way to the closing table.
+                </p>
+            </div>
+
+            <!-- Right: Contact / Inquiry Form -->
+            <div class="lg:col-span-6 bg-white p-8 lg:p-12 rounded-3xl shadow-2xl border border-slate-200 sticky top-28" id="contact">
+                <h3 class="text-2xl font-serif text-slate-900 mb-2">Consult with Marichel</h3>
+                <p class="text-xs text-slate-500 mb-6">Send an inquiry to discuss your next luxury purchase or advisory needs.</p>
+                
+                <form action="https://formspree.io/f/maewkjjd" method="POST" class="space-y-4">
+                    <div>
+                        <label class="block text-[10px] font-semibold uppercase tracking-widest text-slate-600 mb-1">Your Name</label>
+                        <input type="text" name="name" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 text-sm focus:ring-2 focus:ring-amber-600 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-[10px] font-semibold uppercase tracking-widest text-slate-600 mb-1">Your Email</label>
+                        <input type="email" name="email" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 text-sm focus:ring-2 focus:ring-amber-600 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-[10px] font-semibold uppercase tracking-widest text-slate-600 mb-1">Phone Number</label>
+                        <input type="tel" name="phone" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 text-sm focus:ring-2 focus:ring-amber-600 outline-none" placeholder="(555) 000-0000">
+                    </div>
+                    <div>
+                        <label class="block text-[10px] font-semibold uppercase tracking-widest text-slate-600 mb-1">Message / Inquiry</label>
+                        <textarea name="message" rows="3" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 text-sm focus:ring-2 focus:ring-amber-600 outline-none"></textarea>
+                    </div>
+
+                    <div class="space-y-3 pt-2 text-[11px] text-slate-500">
+                        <label class="flex items-start gap-2.5 cursor-pointer">
+                            <input type="checkbox" name="sms_consent" value="yes" class="mt-0.5">
+                            <span>I agree to receive automated marketing calls or text messages at the phone number provided.</span>
+                        </label>
+                        <label class="flex items-start gap-2.5 cursor-pointer">
+                            <input type="checkbox" name="privacy_consent" required class="mt-0.5">
+                            <span class="text-slate-700 font-medium">I agree to the Privacy Policy and Terms of Service. (Required)</span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="w-full bg-slate-900 hover:bg-amber-600 text-white font-semibold py-3.5 rounded-xl transition text-sm mt-3 uppercase tracking-wide shadow-lg">
+                        Send Inquiry
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <p class="text-sm font-light text-slate-300">© 2026 Marichel Hellyer. All rights reserved.</p>
+            <div class="text-xs text-slate-400 max-w-md text-center md:text-right leading-relaxed font-light">
+                Consumer Notice: You have the absolute right to choose your own title and escrow service provider. Equal Housing Opportunity.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
